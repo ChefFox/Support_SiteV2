@@ -1,0 +1,48 @@
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: white;
+    color: black;
+}
+header {
+    background: #0a662e;
+    color: white;
+    text-align: center;
+    padding: 2em 1em;
+}
+section {
+    padding: 2em 1em;
+    max-width: 800px;
+    margin: auto;
+}
+.image-grid {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.image-grid img {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+.downloads {
+    list-style: none;
+    padding: 0;
+}
+.downloads li {
+    margin: 1em 0;
+}
+.downloads a {
+    background: #0a662e;
+    color: white;
+    padding: 0.75em 1.5em;
+    border-radius: 5px;
+    text-decoration: none;
+}
+footer {
+    background: #f0f0f0;
+    text-align: center;
+    padding: 1em;
+    font-size: 0.9em;
+}
